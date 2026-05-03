@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@theme {
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+::selection {
+    background-color: rgba(99, 102, 241, 0.25);
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #27272a transparent;
+}
